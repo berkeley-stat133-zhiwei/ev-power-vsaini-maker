@@ -5,30 +5,42 @@ format: typst
 
 # Example Solution 1
 
-## **Part 0: libraries**
+## **Title: Understanding Energy Price and Total Energy Use Trends**
 
 ```{r}
+library(tidyverse)
+library(janitor)
+library(usmap)
 
 ```
 
-## **Part 1:** **Defining Research Question**
+## **Overview** 
 
-Chosen Question:
+Chosen Question: What is the average energy price by state and year and how does this relate to the total energy use by the state and year? For instance, do some state us less energy due to high costs of energy price? Additionally, how do we compare U.S. Renewable Energy Use by the total energy use by state and year?
 
-## **Part 2: Data Preparation and Cleaning**
-
-```{r}
-
-```
-
-## **Part 3: Joining / Pivoting Datasets for Analysis**
+## **Data and Methods**
 
 ```{r}
 
+# make an object where I read the csv renew_use_2022 and mutate to year = 2022
+
+
+#make an object where I raed the CSV but for 2023 and mutate to year 2023
+
 ```
 
-## **Part 4: Mapping Visualization**
+## **Data and Methods**
 
 ```{r}
+# joining with left joins
+```
+
+## **Map Visualization**
+
+```{r}
+#map visualizations using ggplot
 
 ```
+
+## **Analysis**
+there is correlation between energy prices and energy consumption by state. 
